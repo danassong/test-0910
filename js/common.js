@@ -26,7 +26,7 @@
     $('.h1Nav > h1').on('click', function(e){
         e.preventDefault()
         $('#newContainer').remove()
-        $('#newBox').load('index.html')
+        $('#newBox').load('main.html')
     })
 
 
