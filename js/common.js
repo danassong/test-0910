@@ -19,6 +19,7 @@
         e.preventDefault()
         var url = $(this).attr('href')
         $('#newContainer').remove()
+        $('#newBox').load(url)
     })
 
 
